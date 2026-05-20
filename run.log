@@ -1,19 +1,11 @@
-2026-05-20 22:03:58,761 - INFO - Job started. CLI arguments parsed.
-2026-05-20 22:03:58,762 - INFO - Target Input: data.csv
-2026-05-20 22:03:58,762 - INFO - Target Config: config.yaml
-2026-05-20 22:03:58,762 - INFO - Attempting to load configuration...
-2026-05-20 22:03:58,764 - INFO - Config validated. Seed: 42 | Window: 5 | Version: v1
-2026-05-20 22:03:58,764 - INFO - Attempting to load dataset from data.csv...
-2026-05-20 22:03:58,810 - ERROR - Missing required column: 'close'.
-2026-05-20 22:13:22,887 - INFO - Job started. CLI arguments parsed.
-2026-05-20 22:13:22,888 - INFO - Target Input: data.csv
-2026-05-20 22:13:22,888 - INFO - Target Config: config.yaml
-2026-05-20 22:13:22,888 - INFO - Attempting to load configuration...
-2026-05-20 22:13:22,891 - INFO - Config validated. Seed: 42 | Window: 5 | Version: v1
-2026-05-20 22:13:22,891 - INFO - Attempting to load dataset from data.csv...
-2026-05-20 22:13:22,920 - INFO - Dataset loaded successfully. Total rows: 10000
-2026-05-20 22:13:22,921 - INFO - Starting core processing...
-2026-05-20 22:13:22,930 - INFO - Dropped 4 rows due to initial rolling window NaN values.
-2026-05-20 22:13:22,932 - INFO - Signal generation completed successfully.
-2026-05-20 22:13:22,933 - INFO - Final Metrics - Rows: 9996, Signal Rate: 0.4991, Latency: 47ms
-2026-05-20 22:13:22,934 - INFO - Job completed successfully.
+2026-05-20 23:03:31,768 - INFO - job started
+2026-05-20 23:03:31,768 - INFO - input: data.csv | config: config.yaml
+2026-05-20 23:03:31,769 - INFO - loading config...
+2026-05-20 23:03:31,770 - INFO - config ok — seed: 42 | window: 5 | version: v1
+2026-05-20 23:03:31,771 - INFO - loading data from data.csv...
+2026-05-20 23:03:31,844 - INFO - data loaded — 10000 rows
+2026-05-20 23:03:31,845 - INFO - processing...
+2026-05-20 23:03:31,864 - INFO - dropped 4 nan rows
+2026-05-20 23:03:31,865 - INFO - signal generation done
+2026-05-20 23:03:31,867 - INFO - rows: 9996 | signal_rate: 0.4991 | latency: 102ms
+2026-05-20 23:03:31,869 - INFO - job complete
